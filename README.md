@@ -34,13 +34,13 @@ cd context-engineering-gemini
 
 **[Step-by-Step Guide](#step-by-step-guide)**
 
-**[Writing Effective INITIAL.md Files](#writing-effective-intial.md-files)**
+**[Writing Effective INITIAL.md Files](#writing-effective-initialmd-files)**
 
-**[The PRP Workflow]()**
+**[The PRP Workflow](#the-prp-workflow)**
 
-**[Using Examples Effectively]()**
+**[Using Examples Effectively](#using-examples-effectively)**
 
-**[Best Practices]()**
+**[Best Practices](#best-practices)**
 
 ## What is Context Engineering?
 Context Engineering represents a paradigm shift from traditional prompt engineering:
