@@ -3,6 +3,12 @@ A comprehensive template for getting started with Context Engineering - the disc
 
 **Context Engineering is 10x better than prompt engineering and 100x better than vibe coding.**
 
+---
+
+💡 **Want to learn more about the philosophy behind this project?** [**Read my introductory blog post: "Beyond the Prompt: A Practical Guide to Context Engineering with Gemini."**](https://aryan-gupta.is-a.dev/blog/2025/context-engineering/)
+
+---
+
 ## 🚀 Quick Start
 ```
 # 1. Clone this template
