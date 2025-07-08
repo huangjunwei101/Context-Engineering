@@ -12,7 +12,7 @@ A comprehensive template for getting started with Context Engineering - the disc
 ## 🚀 Quick Start
 ```
 # 1. Clone this template
-git clone https://github.com/your-username/context-engineering-gemini.git
+git clone https://github.com/Apoo711/context-engineering-gemini.git
 cd context-engineering-gemini
 
 # 2. Set up your project rules (optional - template provided)
