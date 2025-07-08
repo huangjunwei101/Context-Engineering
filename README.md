@@ -95,7 +95,9 @@ context-engineering-gemini/
 └── README.md                  # This file
 ```
 
-This template doesn't focus on RAG and tools with context engineering because I have a LOT more in store for that soon. ;)
+**Future Directions:**
+
+This template provides a robust foundation for Context Engineering. The next evolution of this workflow could involve integrating more advanced AI techniques, such as Retrieval-Augmented Generation (RAG) for automated documentation research and AI-driven tools (function calling) for a fully autonomous implementation and testing loop.
 
 ## Step-by-Step Guide
 ### 1. Set Up Global Rules (GEMINI.md)
