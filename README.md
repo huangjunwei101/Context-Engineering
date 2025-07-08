@@ -19,12 +19,12 @@ You can get a free API key from [Google AI Studio](https://aistudio.google.com/a
 This framework uses an environment variable to securely access your API key. Open your terminal and run the appropriate command for your system:
 
 - **macOS / Linux:**
-```
+```shell
 export GEMINI_API_KEY="YOUR_API_KEY_HERE"
 ```
 
 - **Windows (PowerShell):**
-```
+```shell
 $env:GEMINI_API_KEY="YOUR_API_KEY_HERE"
 ```
 
@@ -137,8 +137,17 @@ To start a new feature, you don't edit the `INITIAL.md` template directly. Inste
 ### 2. Generate the PRP (The Plan)
 Now, run the `generate-prp.sh` script. This script sends your feature request to Gemini and asks it to act as a senior engineer, creating a detailed technical blueprint called a Product Requirements Prompt (PRP).
 
+- **For macOS / Linux:**
+```shell
+# Make the script executable first
+chmod +x .gemini/scripts/generate-prp.sh
+
+# Run the script
+./.gemini/scripts/generate-prp.sh request.md
 ```
-# For Windows PowerShell with Git Bash
+
+- **For Windows (using a bash interpreter like Git Bash):**
+```shell
 bash ./.gemini/scripts/generate-prp.sh request.md
 ```
 
@@ -147,8 +156,17 @@ This will create a new, permanent PRP file inside the `PRPs/` directory.
 ### 3. Execute the PRP (The Automated Agent)
 This is where the magic happens. Run the `execute-prp.sh` script with the path to the newly created PRP.
 
+- **For macOS / Linux:**
+```shell
+# Make the script executable first
+chmod +x .gemini/scripts/execute-prp.sh
+
+# Run the script
+./.gemini/scripts/execute-prp.sh PRPs/request_prp.md
 ```
-# For Windows PowerShell with Git Bash
+
+- **For Windows (using a bash interpreter like Git Bash):**
+```shell
 bash ./.gemini/scripts/execute-prp.sh PRPs/request_prp.md
 ```
 
