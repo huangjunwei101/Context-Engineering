@@ -1,4 +1,4 @@
-# Product Requirements Prompt (PRP)
+# Product Requirements Prompt (PRP) - Weather CLI
 ## 1. Overview
 - **Feature Name:** Weather CLI Tool
 
